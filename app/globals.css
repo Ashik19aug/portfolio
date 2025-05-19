@@ -18,7 +18,16 @@
 }
 
 body {
-  background: var(--background);
+  /*background: var(--background);*/
+  margin: 0;
+  padding: 0;
+  background-image: url('/black_background.jpg');
+  background-size: cover;         /* Fill the screen */
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;   /* No tiling */
+  background-attachment: fixed;   /* Sticky background */
+  min-height: 100vh;
+
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
