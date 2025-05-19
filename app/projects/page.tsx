@@ -1,4 +1,5 @@
-import PageWrapper from "@/components/PageWrapper"
+import PageWrapper from "@/components/Motion/PageWrapper";
+
 
 const projects = [
   {title: 'Project One', description: 'Description for project one.'},

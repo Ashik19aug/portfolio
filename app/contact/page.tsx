@@ -1,4 +1,5 @@
-import PageWrapper from "@/components/PageWrapper";
+import PageWrapper from "@/components/Motion/PageWrapper";
+
 
 export default function Contact() {
   return (
